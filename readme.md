@@ -2,9 +2,9 @@
 
 <img src="https://github.com/kkamara/useful/raw/main/movies.png" alt="movies.png" width=""/>
 
-# users-api-laravel-10-php-app-5 [![API](https://github.com/kkamara/users-api-laravel-10-php-app-5/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/users-api-laravel-10-php-app-5/actions/workflows/build.yml)
+# laravel-10-api-3 [![API](https://github.com/kkamara/laravel-10-api-3/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/laravel-10-api-3/actions/workflows/build.yml)
 
-(Test Driven Development) (05-Aug-2023) With Laravel 10 we build a GDPR compliant users API system. I have been working with Laravel since Laravel 5.4 - www.endoflife.date/laravel
+(29-Sep-2023) App 3. Laravel 10 GDPR compliant API system. I have been working with Laravel since Laravel 5.4 - www.endoflife.date/laravel
 
 * [Tinker](#tinker)
 

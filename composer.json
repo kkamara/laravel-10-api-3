@@ -1,7 +1,7 @@
 {
-    "name": "kkamara/users-api-laravel-10-php-app-5",
+    "name": "kkamara/laravel-10-api-3",
     "type": "project",
-    "description": "(Test Driven Development) (05-Aug-2023) With Laravel 10 we build a GDPR compliant users API system. I have been working with Laravel since Laravel 5.4 - www.endoflife.date/laravel",
+    "description": "(29-Sep-2023) App 3. Laravel 10 GDPR compliant API system. I have been working with Laravel since Laravel 5.4 - www.endoflife.date/laravel",
     "keywords": [
         "tdd",
         "test-driven-development",
