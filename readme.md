@@ -28,7 +28,7 @@
 
 [Thunder client](https://www.thunderclient.com/) Visual Studio Code extension.
 
-[thunder-collection_Laravel 10 API 3.json](https://github.com/kkamara/laravel-10-api/blob/main/database/thunder-collection_Laravel 10 API 3.json)
+[thunder-collection_Laravel 10 API 3.json](https://github.com/kkamara/laravel-10-api-3/blob/main/database/thunder-collection_Laravel%2010%20API%203.json)
 
 ## Tinker
 
