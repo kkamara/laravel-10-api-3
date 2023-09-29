@@ -1,8 +1,193 @@
 {
     "client": "Thunder Client",
     "collectionName": "Laravel 10 API 3",
-    "dateExported": "2023-09-29T12:22:26.371Z",
+    "dateExported": "2023-09-29T14:56:33.421Z",
     "version": "1.1",
     "folders": [],
-    "requests": []
+    "requests": [
+        {
+            "_id": "08b47829-b73f-41cb-9629-cfa9f0baf47c",
+            "colId": "6b6b7d90-93dc-4ce3-bc30-1c49b5fa6ff4",
+            "containerId": "",
+            "name": "Retrieve Customers",
+            "url": "http://localhost:3000/api/v1/customers?postcalCode[gt]=30000&type[eq]=I&includeInvoices=true",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-09-29T14:56:24.901Z",
+            "modified": "2023-09-29T14:56:24.901Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "postcalCode[gt]",
+                    "value": "30000",
+                    "isPath": false
+                },
+                {
+                    "name": "type[eq]",
+                    "value": "I",
+                    "isPath": false
+                },
+                {
+                    "name": "includeInvoices",
+                    "value": "true",
+                    "isPath": false
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "1|ywqoWc74FhZJ2O5K7WZThIK1UDwzyVyVjg1kir7I"
+            },
+            "tests": []
+        },
+        {
+            "_id": "94ea7c51-b367-4ba7-a904-90e1f9f78190",
+            "colId": "6b6b7d90-93dc-4ce3-bc30-1c49b5fa6ff4",
+            "containerId": "",
+            "name": "Create a Customer",
+            "url": "http://localhost:3000/api/v1/customers/",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2023-09-29T14:56:24.902Z",
+            "modified": "2023-09-29T14:56:24.902Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n       \"name\": \"Thompson Ltd\",\n       \"type\": \"I\",\n       \"email\": \"cooper.bergnaum@steuber.org\",\n       \"address\": \"517 Dorcas Prairie\",\n       \"city\": \"Port Corde\",\n       \"state\": \"test\",\n       \"postalCode\": \"test\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e2bac89e-d3b9-4598-90c3-1c59405a64cd",
+            "colId": "6b6b7d90-93dc-4ce3-bc30-1c49b5fa6ff4",
+            "containerId": "",
+            "name": "Updating a Customer",
+            "url": "http://localhost:3000/api/v1/customers/326",
+            "method": "PUT",
+            "sortNum": 17500,
+            "created": "2023-09-29T14:56:24.903Z",
+            "modified": "2023-09-29T14:56:24.903Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n       \"name\": \"Thompson Ltd\",\n       \"type\": \"I\",\n       \"email\": \"coope1r.bergnaum@steuber.org\",\n       \"address\": \"517 Dorcas Prairie\",\n       \"city\": \"Port Corde\",\n       \"state\": \"test\",\n       \"postalCode\": \"test\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "45645c34-ab25-4e2a-96ba-afc14d6b8bf7",
+            "colId": "6b6b7d90-93dc-4ce3-bc30-1c49b5fa6ff4",
+            "containerId": "",
+            "name": "Patching a Customer",
+            "url": "http://localhost:3000/api/v1/customers/326",
+            "method": "PATCH",
+            "sortNum": 18750,
+            "created": "2023-09-29T14:56:24.904Z",
+            "modified": "2023-09-29T14:56:24.904Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n       \"name\": \"Test Thompson Ltd\",\n       \"type\": \"I\",\n       \"email\": \"coope12r.bergnaum@steuber.org\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "23aa745b-1484-474c-9ebd-9e323dea6604",
+            "colId": "6b6b7d90-93dc-4ce3-bc30-1c49b5fa6ff4",
+            "containerId": "",
+            "name": "Retrieve a Customer",
+            "url": "http://localhost:3000/api/v1/customers/1?includeInvoices=true",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-09-29T14:56:24.905Z",
+            "modified": "2023-09-29T14:56:24.905Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "includeInvoices",
+                    "value": "true",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "82ad48c2-0d50-4bfe-aa21-0ffaeaf4bcad",
+            "colId": "6b6b7d90-93dc-4ce3-bc30-1c49b5fa6ff4",
+            "containerId": "",
+            "name": "Bulk Insert Invoices",
+            "url": "http://localhost:3000/api/v1/invoices/bulk",
+            "method": "POST",
+            "sortNum": 25000,
+            "created": "2023-09-29T14:56:24.906Z",
+            "modified": "2023-09-29T14:56:24.906Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "[\n  {\n        \"customerId\": 1,\n        \"amount\": 7481,\n        \"status\": \"B\",\n        \"billedDate\": \"2020-11-14 03:47:20\",\n        \"paidDate\": null\n      },\n      {\n        \"customerId\": 1,\n        \"amount\": 14889,\n        \"status\": \"V\",\n        \"billedDate\": \"2016-08-26 11:10:12\",\n        \"paidDate\": null\n      },\n      {\n        \"customerId\": 1,\n        \"amount\": 15762,\n        \"status\": \"B\",\n        \"billedDate\": \"2015-07-21 11:07:12\",\n        \"paidDate\": null\n      }\n]",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ecb08e7a-5025-4f00-a061-d7b6e19b5dcf",
+            "colId": "6b6b7d90-93dc-4ce3-bc30-1c49b5fa6ff4",
+            "containerId": "",
+            "name": "Retrieve Invoices",
+            "url": "http://localhost:3000/api/v1/invoices?status[ne]=P",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-09-29T14:56:24.907Z",
+            "modified": "2023-09-29T14:56:24.907Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "status[ne]",
+                    "value": "P",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "0434e27a-2900-476b-b340-767857d1efac",
+            "colId": "6b6b7d90-93dc-4ce3-bc30-1c49b5fa6ff4",
+            "containerId": "",
+            "name": "Retrieve an Invoice",
+            "url": "http://localhost:3000/api/v1/invoices/1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-09-29T14:56:24.908Z",
+            "modified": "2023-09-29T14:56:24.908Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
 }
